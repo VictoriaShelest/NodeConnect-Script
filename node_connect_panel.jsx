@@ -1,5 +1,5 @@
 
-// NodeConnect Script. Turn nulls into nodes, connected by dynamic curves.
+// NodeConnect Script. Turn nulls into nodes connected by dynamic curves.
 // Developed by Victoria Shelest.
 // 09.2025.
 
@@ -93,3 +93,4 @@ if (panel instanceof Window) {
 }
 
 })();
+
