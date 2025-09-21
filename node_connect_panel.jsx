@@ -54,7 +54,7 @@ function nodeConnect() {
             }
             var slider = effects.addProperty("ADBE Slider Control");
             slider.name = "Curve Amount";
-            slider.property("Slider").setValue(200); // Default value
+            slider.property("Slider").setValue(100); // Default value
             // Build the expression for the path
             var expression = "var points = [];\n";
             expression += "var inTangents = [];\n";
@@ -91,4 +91,5 @@ if (panel instanceof Window) {
 } else {
     panel.layout.layout(true);
 }
+
 })();
