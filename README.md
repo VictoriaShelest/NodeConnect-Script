@@ -41,9 +41,3 @@ Included files:
 1. Enable Script File Access: go to **Edit > Preferences > Scripting & Expressions** and check *Allow Scripts to Write Files and Access Network*.
 2. Create or open a composition and select the two null layers you want to connect.
 3. Save your project before running the script.
-
----
-
-// NodeConnect Script. Turn nulls into nodes, connected by dynamic curves. 
-// Developed by Victoria Shelest. 
-// 09.2025.
