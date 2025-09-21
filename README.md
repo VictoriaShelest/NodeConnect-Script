@@ -1,11 +1,15 @@
-# NodeConnect-Script
+# NodeConnect Script
 
 **Overview**
+
 NodeConnect is an After Effects script that connects two null objects with a smooth curved path. It’s designed for animating node-based UI systems, data flow visualizations, and other tech-style graphics.
+
 Created by: Victoria Shelest
+
 Year: 2025
 
 **What it does**
+
 The NodeConnect script automatically generates a shape layer path between two selected nulls. The curve dynamically updates whenever either null is moved, making it ideal for node graphs, futuristic HUDs, and animated diagrams.
 
 Included files:
@@ -21,8 +25,8 @@ Included files:
 
 **Installation**
 1. Copy `node_connect.jsx` and/or `node_connect_button.jsx` to your After Effects Scripts folder:
-**Windows:** `C:\Program Files\Adobe\Adobe After Effects [version]\Support Files\Scripts\`
-**Mac:** `/Applications/Adobe After Effects [version]/Scripts/`
+- **Windows:** `C:\Program Files\Adobe\Adobe After Effects [version]\Support Files\Scripts\`
+- **Mac:** `/Applications/Adobe After Effects [version]/Scripts/`
 2. Restart After Effects.
 3. Access via **File > Scripts > NodeConnect**.
 
