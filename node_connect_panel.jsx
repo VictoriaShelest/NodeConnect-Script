@@ -1,6 +1,7 @@
 
 // NodeConnect Script. Turn nulls into nodes connected by dynamic curves.
 // Developed by Victoria Shelest.
+// Version 1.1.
 // 09.2025.
 
 
@@ -93,4 +94,5 @@ if (panel instanceof Window) {
 }
 
 })();
+
 
