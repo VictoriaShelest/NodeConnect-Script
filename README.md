@@ -41,3 +41,11 @@ Included files:
 1. Enable Script File Access: go to **Edit > Preferences > Scripting & Expressions** and check *Allow Scripts to Write Files and Access Network*.
 2. Create or open a composition and select the two null layers you want to connect.
 3. Save your project before running the script.
+
+**Troubleshooting**
+- **Both points appear on the same null.**  
+    This can happen if the selected nulls have identical names.  
+    ✔ Solution: make sure each null has a unique name before running the script.
+- **Curve bends in the wrong direction.**  
+    The curve may point the opposite way if you select the second null first (the order of selection matters).  
+    ✔ Solution: delete the curve and create it again, selecting the nulls in the opposite order.
