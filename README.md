@@ -24,17 +24,18 @@ Included files:
 - The order of selection matters: select the left null first, then the right. If the curve bends the wrong way, simply set the Curve Amount slider to a negative value.
 
 **Installation**
-1. Copy `node_connect.jsx` and/or `node_connect_button.jsx` to your After Effects Scripts folder:
+1. Download the desired version (v1.0 or v1.1).
+2. Copy `node_connect_[version].jsx` and/or `node_connect_panel_[version].jsx` to your After Effects Scripts folder:
 - **Windows:** `C:\Program Files\Adobe\Adobe After Effects [version]\Support Files\Scripts\`
 - **Mac:** `/Applications/Adobe After Effects [version]/Scripts/`
 2. Restart After Effects.
 3. Access via **File > Scripts > NodeConnect**.
 
 **Adding to KBar**
-1. Download the `node_connect.jsx` script and optional `node_connect.svg` icon from this repository.
+1. Download the `node_connect_[version].jsx` script and the optional `node_connect.svg` icon.
 2. Open KBar Settings in After Effects.
-3. Add a new button to your toolbar.
-4. Choose **Run JSX/JSXBIN File** and select the `node_connect.jsx` file.
+3. Add a new button to one of your toolbars.
+4. Choose **Run JSX/JSXBIN File** and select the `node_connect_[version].jsx` file.
 5. Add a description, choose the downloaded icon if desired, and click **OK**.
 
 **Before running**
