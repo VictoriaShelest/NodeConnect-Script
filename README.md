@@ -43,10 +43,28 @@ Now two versions of the script are available. Each version included files:
 2. Create or open a composition and select the two null layers you want to connect.
 3. Save your project before running the script.
 
+**Changelog**
+
+**v1.1 (09.2025)**
+
+- Layer position now locks to the first selected null instead of defaulting to `[0,0]`.  
+⚠︎ Note: if the first null is parented to another layer, its anchor point may appear displaced because of inherited transformations.
+- Added automatic numbering for node connections.
+- Introduced a silent mode - no alerts.  
+⚠︎ Reminder: select two nulls before running the script.
+- Centralized control system: a dedicated control layer is now created, giving you one place to adjust curve amount, stroke width, and stroke color for all node connections. You can adjust these settings at any time after this layer created, and every new node connection you create will automatically adopt them. The curve amount control has been switched from absolute values to percentages to match the pseudo effect settings.
+
+**v1.0 (09.2025)**
+
+- Initial release with null connections.
+
 **Troubleshooting**
 - **Both points appear on the same null.**  
     This can happen if the selected nulls have identical names.  
     ✔ Solution: make sure each null has a unique name before running the script.
+- **No path appears after running the script.**  
+    If nothing is created, it usually means fewer then two null layers were selected.  
+    ✔ Solution: select exactly two nulls before running the script.  
 - **Curve bends in the wrong direction.**  
     The curve may point the opposite way if you select the second null first (the order of selection matters).  
     ✔ Solution: delete the curve and create it again, selecting the nulls in the opposite order.
