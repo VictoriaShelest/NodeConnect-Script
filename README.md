@@ -12,9 +12,9 @@ Year: 2025
 
 The NodeConnect script automatically generates a shape layer path between two selected nulls. The curve dynamically updates whenever either null is moved, making it ideal for node graphs, futuristic HUDs, and animated diagrams.
 
-Included files:
-- `node_connect.jsx` — a script that creates node connections.
-- `node_connect_panel.jsx` — a ScriptUI panel with a button to create node connections.
+Each version included files:
+- `node_connect_[version].jsx` — a script that creates node connections.
+- `node_connect_panel_[version].jsx` — a ScriptUI panel with a button to create node connections.
 - `node-connect_icon.svg` — an icon for KBar.
 
 **It creates**
