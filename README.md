@@ -1,5 +1,7 @@
 # NodeConnect Script
 
+NodeConnect. Turn nulls into nodes connected by dynamic curves.
+
 **Overview**
 
 NodeConnect is an After Effects script that connects two null objects with a smooth curved path. It’s designed for animating node-based UI systems, data flow visualizations, and other tech-style graphics.
