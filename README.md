@@ -6,7 +6,7 @@ NodeConnect is an After Effects script that connects two null objects with a smo
 
 Created by: Victoria Shelest
 
-Year: 2025
+Year: 2025-2026
 
 **What it does**
 
