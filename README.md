@@ -45,6 +45,13 @@ Now two versions of the script are available. Each version included files:
 
 **Changelog**
 
+**v1.2 (04.2026)**
+
+- Panel version now works as a proper dockable ScriptUI panel when launched from the Window menu.
+- Refined the panel interface with improved default sizing and cleaner button placement.
+- Added clearer installation/launch behavior for the panel version via **Window** menu.
+- Refreshed the visual identity with an updated icon color.
+
 **v1.1 (09.2025)**
 
 - Layer position now locks to the first selected null instead of defaulting to `[0,0]`.  
