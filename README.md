@@ -24,12 +24,22 @@ Now two versions of the script are available. Each version included files:
 - The order of selection matters: select the left null first, then the right. If the curve bends the wrong way, simply set the Curve Amount slider to a negative value.
 
 **Installation**
-1. Download the desired version (v1.0 or v1.1).
-2. Copy `node_connect_[version].jsx` and/or `node_connect_panel_[version].jsx` to your After Effects Scripts folder:
+
+**Standard script version**
+1. Download the desired version (v1.0 - v1.2).
+2. Copy `node_connect_[version].jsx` to your After Effects Scripts folder:
 - **Windows:** `C:\Program Files\Adobe\Adobe After Effects [version]\Support Files\Scripts\`
 - **Mac:** `/Applications/Adobe After Effects [version]/Scripts/`
 2. Restart After Effects.
 3. Access via **File > Scripts > NodeConnect**.
+
+**Panel version**
+1. Download `node_connect_panel_[version].jsx`.
+2. Copy it to your After Effects ScriptUI Panels folder:
+   - **Windows:** `C:\Program Files\Adobe\Adobe After Effects [version]\Support Files\Scripts\ScriptUI Panels\`
+   - **Mac:** `/Applications/Adobe After Effects [version]/Scripts/ScriptUI Panels/`
+3. Restart After Effects.
+4. Open it via **Window > node_connect_panel_[version].jsx**. 
 
 **Adding to KBar**
 1. Download the `node_connect_[version].jsx` script and the optional `node_connect.svg` icon.
