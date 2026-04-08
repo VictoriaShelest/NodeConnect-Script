@@ -1,6 +1,6 @@
 # NodeConnect Script
 
-**Overview**
+## Overview
 
 NodeConnect is an After Effects script that connects two null objects with a smooth, expression-driven curved path. It is designed for animating node-based UI systems, data flow visualizations, diagrams, and other tech-style graphics where you need flexible, controllable connections between elements.
 
@@ -93,7 +93,7 @@ Each “Node Connection X” shape layer gets:
 The stroke on the path reads from **Stroke Color Local** (with global color used only as the initial value), while stroke width still follows the global Stroke Width by default.
 
 ---
-**Installation**
+## Installation
 
 **Standard script version**
 1. Download the desired version (v1.0 - v2.0).
@@ -170,7 +170,7 @@ For detailed version history, including v1.x behavior, see: [**CHANGELOG.md**](h
 
 ---
 
-**Troubleshooting**
+## Troubleshooting
 - **Both points appear on the same null.**  
     This can happen if the selected nulls have identical names.  
     ✔ Solution: make sure each null has a unique name before running the script.
