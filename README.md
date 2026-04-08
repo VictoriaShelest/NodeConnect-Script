@@ -5,8 +5,6 @@
 NodeConnect is an After Effects script that connects two null objects with a smooth, expression-driven curved path. It is designed for animating node-based UI systems, data flow visualizations, diagrams, and other tech-style graphics where you need flexible, controllable connections between elements.
 
 > This README describes the **latest version (v2.x)** of NodeConnect.
-> 
-> 
 > For older behavior and detailed release history, see [**CHANGELOG.md**](https://github.com/VictoriaShelest/NodeConnect-Script/blob/main/CHANGELOG.md).
 >
 
