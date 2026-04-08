@@ -29,7 +29,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and 
     to compute tangents and resulting curvature.
     
 - Stroke color on each connection now reads from Stroke Color Local, with the global Stroke Color used as the initial default when the connection is created.
-- Newly created Node Connection layers are now placed above the second selected Null in each pair, making the layer stack more predictable and easier to manage in the timeline.
+- Improved layer ordering: newly created Node Connection layers are now placed above the second selected Null in each pair, making the timeline easier to read and manage.
 
 ---
 
