@@ -21,7 +21,6 @@ NodeConnect takes selected Null layers in your composition and automatically bui
 - Centralised control over stroke style and overall curvature.
 - Per-connection overrides for curvature and color, so you can fine-tune or animate individual links without breaking the global system.
 
----
 
 ## It creates
 
@@ -52,7 +51,6 @@ When you run NodeConnect with at least two Null layers selected, it creates:
 > If the curve bends the wrong way, you can simply use a negative Curve Amount on the global controller.
 > 
 
----
 ## Controls
 
 ### Global controls (Connection CTRL)
@@ -91,7 +89,6 @@ Each “Node Connection X” shape layer gets:
 
 The stroke on the path reads from **Stroke Color Local** (with global color used only as the initial value), while stroke width still follows the global Stroke Width by default.
 
----
 ## Installation
 
 **Standard script version**
@@ -106,7 +103,7 @@ The stroke on the path reads from **Stroke Color Local** (with global color used
 1. Download `NodeConnect_Panel_[version].jsx`.
 2. Copy it to your After Effects ScriptUI Panels folder:
    - **Windows:** `C:\Program Files\Adobe\Adobe After Effects [version]\Support Files\Scripts\ScriptUI Panels\`
-   - **Mac:** `/Applications/Adobe After Effects [version]/Scripts/ScriptUI Panels/`
+   - **macOS:** `/Applications/Adobe After Effects [version]/Scripts/ScriptUI Panels/`
 3. Restart After Effects.
 4. Open it via **Window > NodeConnect_Panel_[version].jsx**. 
 
@@ -117,12 +114,12 @@ The stroke on the path reads from **Stroke Color Local** (with global color used
 4. Choose **Run JSX/JSXBIN File** and select the `NodeConnect[version].jsx` file.
 5. Add a description, choose the downloaded icon if desired, and click **OK**.
 
-**Before running**
+## Before running
+
 1. Enable Script File Access: go to **Edit > Preferences > Scripting & Expressions** and check *Allow Scripts to Write Files and Access Network*.
 2. Create or open a composition and select the two null layers you want to connect.
 3. Save your project before running the script.
 
----
 
 ## Usage
 
@@ -142,7 +139,6 @@ Only Null layers are used; other layer types in the selection are ignored.
     - Use **Curve Influence** to control how much each link follows the global curve.
     - Use **Stroke Color Local** to animate color per connection.
 
----
 
 ## Typical animation workflow
 
@@ -153,7 +149,6 @@ Only Null layers are used; other layer types in the selection are ignored.
 
 This keeps your node system consistent and centralized, while giving you flexible control on each individual link.
 
----
 
 ## Compatibility
 
@@ -161,13 +156,11 @@ This keeps your node system consistent and centralized, while giving you flexibl
 - Script type: ExtendScript.
 - Works with 2D nulls in standard comps.
 
----
 
 ## Changelog
 
-For detailed version history, including v1.x behavior, see: [**CHANGELOG.md**](https://github.com/VictoriaShelest/NodeConnect-Script/blob/main/CHANGELOG.md).
+For detailed version history, see: [**CHANGELOG.md**](https://github.com/VictoriaShelest/NodeConnect-Script/blob/main/CHANGELOG.md).
 
----
 
 ## Troubleshooting
 - **Both points appear on the same null.**  
