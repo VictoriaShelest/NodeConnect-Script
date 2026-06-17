@@ -1,6 +1,6 @@
 # NodeConnect Script
 
-![NodeConnect preview](assets/NodeConnect_Preview.gif)
+![NodeConnect preview](media/NodeConnect_Preview.gif)
 
 ## Overview
 
@@ -110,7 +110,7 @@ The stroke on the path reads from **Stroke Color Local** (with global color used
 4. Open it via **Window > NodeConnect_Panel_[version].jsx**. 
 
 **Adding to KBar**
-1. Download the `NodeConnect[version].jsx` script and the optional `NodeConnect_Icon.svg` icon.
+1. Download the `NodeConnect[version].jsx` script and the optional `NodeConnect_Icon.svg`  from /assets.
 2. Open KBar Settings in After Effects.
 3. Add a new button to one of your toolbars.
 4. Choose **Run JSX/JSXBIN File** and select the `NodeConnect[version].jsx` file.

@@ -1,0 +1,25 @@
+# === After Effects project & test files ===
+*.aep
+*.aepx
+Adobe After Effects Auto-Save/
+
+# === Renders / heavy media ===
+/renders/
+*.mp4
+*.mov
+
+# === OS junk files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Dropbox conflict files ===
+*conflicted copy*
+
+# === Editor & temp files ===
+.vscode/
+*.log
+*.tmp
+
+# === Claude Code local state ===
+.claude/
