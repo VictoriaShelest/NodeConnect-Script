@@ -174,3 +174,7 @@ For detailed version history, see: [**CHANGELOG.md**](https://github.com/Victori
 - **Curve bends in the wrong direction.**  
     The curve may point the opposite way if you select the second null first (the order of selection matters).  
     ✔ Solution: delete the curve and create it again, selecting the nulls in the opposite order.
+
+## License
+
+MIT — see [LICENSE](LICENSE)
