@@ -5,6 +5,7 @@ Adobe After Effects Auto-Save/
 
 # === Renders / heavy media ===
 /renders/
+/ae/
 *.mp4
 *.mov
 
