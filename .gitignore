@@ -31,6 +31,7 @@ desktop.ini
 /.git/
 *.log
 *.tmp
+TODO.md
 
 # Claude Code local state
 .claude/
