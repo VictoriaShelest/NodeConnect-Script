@@ -1,32 +1,36 @@
-# === After Effects project & test files ===
+# After Effects project & test files
 *.aep
 *.aepx
-Adobe After Effects Auto-Save/
+/ae/
+/Adobe After Effects Auto-Save/
 
-# === Effects presets ===
+# Effects presets
 *.ffx
 
-# === Renders / heavy media ===
+# Renders / heavy media
 /renders/
-/ae/
 *.mp4
 *.mov
 
-# === Adobe Media Encoder queue ===
+# Adobe Media Encoder queue
 *.epr
 
-# === OS junk files ===
+# OS junk files
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# === Dropbox conflict files ===
+# Dropbox conflict files
 *conflicted copy*
 
-# === Editor & temp files ===
+# Editor & temp files
 .vscode/
+/old checkpoints/
+/archives/
+/archive/
+/.git/
 *.log
 *.tmp
 
-# === Claude Code local state ===
+# Claude Code local state
 .claude/
