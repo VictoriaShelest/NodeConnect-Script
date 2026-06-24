@@ -3,11 +3,17 @@
 *.aepx
 Adobe After Effects Auto-Save/
 
+# === Effects presets ===
+*.ffx
+
 # === Renders / heavy media ===
 /renders/
 /ae/
 *.mp4
 *.mov
+
+# === Adobe Media Encoder queue ===
+*.epr
 
 # === OS junk files ===
 .DS_Store
